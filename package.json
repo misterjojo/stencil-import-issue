@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npx http-server ./"
+    "build:component-a": "cd component-a && npm install && npm run build",
+    "build:component-b": "cd component-b && npm install && npm run build",
+    "start": "npm run build:component-a && npm run build:component-b && npx http-server ./"
   },
   "repository": {
     "type": "git",

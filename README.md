@@ -6,10 +6,6 @@ To start demo :
 
 `npm install` 
 
-`cd components-a && npm install && npm build`
-
-`cd components-b && npm install && npm build`
-
 `npm start`
 
 Then you can open chrome on http://localhost:8080/index.html
